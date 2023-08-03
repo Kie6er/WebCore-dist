@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="assets/css/style.min.css?_v=20230802223924">
+	<link rel="stylesheet" href="assets/css/style.min.css?_v=20230803125019">
 	<!-- Swiper -->
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230802223924"/> -->
-
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230803125019"/> -->
+	
 	<!-- Useful meta tags -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,16 +14,15 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-
+	
 	<title>CPS</title>
 </head>
-
 <body>
 	<div class="page" id="page">
 
 		<header class="header">
 			<div class="header__container container">
-
+		
 				<div class="header__inner">
 					<div class="header__left">
 						<button class="header__burger btn" type="button" id="burger">
@@ -52,15 +50,14 @@
 						</div>
 					</div>
 				</div>
-
+		
 			</div>
 		</header>
-
+		
 		<aside class="sidebar" id="sidebar">
 			<div class="sidebar__menu sidebar-menu">
 				<header class="sidebar-menu__header sidebar-header">
-					<button class="sidebar-header__close btn icons__icon-sidebar-close" type="button"
-						id="sidebar-close"></button>
+					<button class="sidebar-header__close btn icons__icon-sidebar-close" type="button" id="sidebar-close"></button>
 					<div class="sidebar-header__logo">
 						<a href="#" tabindex="1"><img src="assets/images/icons/logo.svg" alt=""></a>
 					</div>
@@ -93,19 +90,36 @@
 						</div>
 					</div>
 					<div class="sidebar-footer__lang footer-lang">
-						<a class="footer-lang__link active" href="#">RU</a>
-						<a class="footer-lang__link" href="#">EN</a>
-						<a class="footer-lang__link" href="#">CH</a>
+						<ul class="footer-lang__list">
+							<li class="footer-lang__item">
+								<label class="footer-lang__radio">
+									<input class="footer-lang__input" type="radio" checked name="lang-radio">
+									<span class="footer-lang__text">RU</span>
+								</label>
+							</li>
+							<li class="footer-lang__item">
+								<label class="footer-lang__radio">
+									<input class="footer-lang__input" type="radio" name="lang-radio">
+									<span class="footer-lang__text">EN</span>
+								</label>
+							</li>
+							<li class="footer-lang__item">
+								<label class="footer-lang__radio">
+									<input class="footer-lang__input" type="radio" name="lang-radio">
+									<span class="footer-lang__text">CH</span>
+								</label>
+							</li>
+						</ul>
 					</div>
 				</footer>
 			</div>
 			<div class="sidebar__bg" id="sidebar-background"></div>
-		</aside>
-
+		</aside>		
+		
 		<main class="main">
 			<section class="services-intro services-intro--padding--42">
 				<div class="services-intro__container container">
-
+		
 					<div class="services-intro__inner">
 						<header class="services-intro__header intro-header">
 							<div class="intro-header__top">
@@ -113,13 +127,11 @@
 								<div class="intro-header__right">
 									<label class="intro-header__button intro-button" tabindex="0">
 										<span class="intro-button__text">Оставить заявку</span>
-										<button class="intro-button__btn btn icons__icon-repair" type="button"
-											tabindex="-1"></button>
+										<button class="intro-button__btn btn icons__icon-repair" type="button" tabindex="-1"></button>
 									</label>
 									<label class="intro-header__button intro-button" tabindex="0">
 										<span class="intro-button__text">Статус ремонта</span>
-										<button class="intro-button__btn btn icons__icon-search" type="button"
-											tabindex="-1"></button>
+										<button class="intro-button__btn btn icons__icon-search" type="button" tabindex="-1"></button>
 									</label>
 								</div>
 							</div>
@@ -136,18 +148,15 @@
 								</nav>
 							</div>
 						</header>
-
+		
 						<article class="services-intro__info intro-info">
 							<div class="intro-info__left">
 								<div class="intro-info__text">
-									<p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
-										нас вы
-										можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-									</p>
+									<p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+										можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
 									<p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
 										подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
-										обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-									</p>
+										обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
 								</div>
 								<button class="intro-info__button">
 									<div class="intro-info__arrows">
@@ -159,10 +168,7 @@
 							</div>
 							<div class="intro-info__right">
 								<div class="intro-info__image">
-									<picture>
-										<source srcset="assets/images/image-1.webp" type="image/webp"><img
-											src="assets/images/image-1.jpg" alt="">
-									</picture>
+									<picture><source srcset="assets/images/image-1.webp" type="image/webp"><img src="assets/images/image-1.jpg" alt=""></picture>
 								</div>
 							</div>
 						</article>
@@ -174,16 +180,15 @@
 
 		<footer class="footer">
 			<div class="container">
-
+				
 			</div>
-		</footer>
+		</footer>		
 	</div>
 
 	<!-- Swiper -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230802223924"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230803125019"></script> -->
 
 	<!-- JS -->
-	<script src="assets/js/app.min.js?_v=20230802223924"></script>
+	<script src="assets/js/app.min.js?_v=20230803125019"></script>
 </body>
-
 </html>
